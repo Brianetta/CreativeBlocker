@@ -1,0 +1,16 @@
+name: CreativeBlockerSC
+main: net.simplycrafted.CreativeBlocker.CreativeBlocker
+version: 0.1
+author: Brianetta
+permissions:
+    creativeblocker.equip:
+        description: Allow user to equip potions in creative mode
+        default: op
+    creativeblocker.reload:
+        description: Permission to reload module config
+        default: op
+commands:
+    creativeblocker:
+        description: Reload config from file
+        permission: creativeblocker.reload
+        usage: /creativeblocker reload
