@@ -1,0 +1,1 @@
+Quick and dirty Bukkit plugin that prevents players with creative mode from equipping the configured items into their hotbar. For use alongside LimitedCreative, CreativeControl, etc. to plug up some issues (like spamming throwable potions from the sky, etc).
